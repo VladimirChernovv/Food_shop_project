@@ -2,12 +2,12 @@ import {API_URL} from './config';
 
 const getMaelById = async (mealId) => {
   const response = await fetch(API_URL + 'lookup.php?i=' + mealId);
-  return await response.json();
+  return response.json();
 };
 
 const getAllCategories = async () => {
   const response = await fetch(API_URL + 'categories.php');
-  return await response.json();
+  return response.json();
 };
 
 const getFilteredCategory = async (catName) => {
