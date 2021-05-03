@@ -5,7 +5,7 @@ import {Footer} from './components/Footer';
 import {Home} from './pages/Home';
 import {About} from './pages/About';
 import {Contact} from './pages/Contact';
-import {Movie} from './pages/Movie';
+import {Category} from './pages/Category';
 import {NotFound} from './pages/NotFound';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contacts" component={Contact} />
-            <Route path="/movies/:title" componenet={Movie} />
+            <Route path="/category/:name" component={Category} />
             <Route component={NotFound} />
           </Switch>
         </main>
