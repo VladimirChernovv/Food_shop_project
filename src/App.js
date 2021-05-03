@@ -7,6 +7,7 @@ import {About} from './pages/About';
 import {Contact} from './pages/Contact';
 import {Category} from './pages/Category';
 import {NotFound} from './pages/NotFound';
+import {Recipe} from './pages/Recipe';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contacts" component={Contact} />
+            <Route path="/meal/:id" component={Recipe} />
             <Route path="/category/:name" component={Category} />
             <Route component={NotFound} />
           </Switch>

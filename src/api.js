@@ -1,5 +1,6 @@
 import {API_URL} from './config';
 
+// Метод получающий информацию по id о каком либо блюде
 const getMaelById = async (mealId) => {
   const response = await fetch(API_URL + 'lookup.php?i=' + mealId);
   return await response.json();
