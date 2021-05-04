@@ -1,4 +1,4 @@
-import {CategoryItem} from './CategoryItem';
+import {CategoryItem} from '../components/CategoryItem';
 
 function CategoryList({catalog = []}) {
   

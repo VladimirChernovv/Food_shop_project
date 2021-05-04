@@ -38,7 +38,7 @@ function Recipe() {
                         <td>{recipe[key]}</td>
                         <td>{
                           recipe [
-                            `strMeasure${key. slice(13)}`
+                            `strMeasure${key.slice(13)}`
                           ]
                         }</td>
                       </tr>
