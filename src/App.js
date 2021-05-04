@@ -12,7 +12,7 @@ import {Recipe} from './pages/Recipe';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Food_shop_project">
         <Header />
         <main className="container content">
           <Switch>
