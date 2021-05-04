@@ -6,7 +6,7 @@ function CategoryList({catalog = []}) {
     <div className="list">
       {catalog.map(el => (
         <CategoryItem key={el.idCategory} {...el} />
-      ))};
+      ))}
     </div>
   );
 };
